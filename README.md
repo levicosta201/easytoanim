@@ -1,7 +1,7 @@
 # EasyToAnim
 
 
-[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 ## Dependency
 
@@ -38,5 +38,7 @@ Add anim to element:
 		
 	animTextView(Context, INT_ANIM, TextView);
 	animEditText(Context, INT_ANIM, EditText);
+	animImageView(Context, INT_ANIM, EditText);
+	animButton(Context, INT_ANIM, EditText);
 	
 ```

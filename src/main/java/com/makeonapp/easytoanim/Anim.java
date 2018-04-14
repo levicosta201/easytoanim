@@ -3,7 +3,9 @@ package com.makeonapp.easytoanim;
 import android.content.Context;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -22,6 +24,14 @@ public class Anim {
 
     public static void animEditText(Context context, int anim, EditText editText) {
         editText.startAnimation(anim(context, anim));
+    }
+
+    public static void animImageView(Context context, int anim, ImageView imageView) {
+        imageView.startAnimation(anim(context, anim));
+    }
+
+    public static void animButton(Context context, int anim, Button button) {
+        button.startAnimation(anim(context, anim));
     }
 
     private static Animation anim(Context context, int animation) {
