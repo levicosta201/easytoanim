@@ -38,7 +38,7 @@ Add anim to element:
 		
 	animTextView(Context, INT_ANIM, TextView);
 	animEditText(Context, INT_ANIM, EditText);
-	animImageView(Context, INT_ANIM, EditText);
-	animButton(Context, INT_ANIM, EditText);
+	animImageView(Context, INT_ANIM, ImageView);
+	animButton(Context, INT_ANIM, Button);
 	
 ```
