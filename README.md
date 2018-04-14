@@ -21,7 +21,7 @@ allprojects {
 
 ```
 dependencies {
-    compile 'com.github.levicosta201:easytoanim:c3c51421d3'
+    compile 'com.github.levicosta201:easytoanim:-SNAPSHOT'
 }
 ```
 
